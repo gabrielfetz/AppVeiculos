@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Carros"
+             x:Class="Carros.MainPage"
+             Title="Main Page">
+
+    <StackLayout Orientation="Vertical" Margin="10">
+        <StackLayout Orientation="Horizontal" Margin="10">
+            <Label Text="Teste1"/>
+            <Label Text="Teste2"/>
+            <Label Text="Teste3"/>
+        </StackLayout>
+
+        <Grid HorizontalOptions="Center" BackgroundColor="Gray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Teste 4" Grid.Row="0" Grid.Column="0" BackgroundColor="Red"></Label>
+            <Label Text="Teste 5" Grid.Row="1" Grid.Column="1" BackgroundColor="Green"></Label>
+            <Label Text="Teste 6" Grid.Row="2" Grid.Column="2" BackgroundColor="Blue"></Label>
+        </Grid>
+
+        <Button Text="Próxima tela" Clicked="Button_Clicked"></Button>
+
+    </StackLayout>
+</ContentPage>
