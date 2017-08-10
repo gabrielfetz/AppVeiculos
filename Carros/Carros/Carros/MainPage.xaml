@@ -29,7 +29,8 @@
             <Label Text="Teste 6" Grid.Row="2" Grid.Column="2" BackgroundColor="Blue"></Label>
         </Grid>
 
-        <Button Text="Próxima tela" Clicked="Button_Clicked"></Button>
+        <Button Text="Tela teste" Clicked="Button_Clicked"></Button>
+        <Button Text="Tela cadastro" Clicked="Button_Clicked_1"></Button>
 
     </StackLayout>
 </ContentPage>
